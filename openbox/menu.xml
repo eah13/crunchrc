@@ -21,7 +21,7 @@
 				</command>
 			</action>
 		</item>
-		<item label="Web Browser">
+		<item label="Chromium">
 			<action name="Execute">
 				<command>
 					x-www-browser
@@ -35,17 +35,10 @@
 				</command>
 			</action>
 		</item>
-		<item label="Text Editor">
+		<item label="Pandora">
 			<action name="Execute">
 				<command>
-					geany
-				</command>
-			</action>
-		</item>
-		<item label="Media Player">
-			<action name="Execute">
-				<command>
-					vlc
+					pithos
 				</command>
 			</action>
 		</item>
@@ -95,6 +88,22 @@
 				<action name="Execute">
 					<command>
 						gksudo thunar
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="code" label="Code">
+			<item label="IDLE">
+				<action name="Execute">
+					<command>
+						idle
+					</command>
+				</action>
+			</item>
+			<item label="Sublime Text">
+				<action name="Execute">
+					<command>
+						sublime
 					</command>
 				</action>
 			</item>
