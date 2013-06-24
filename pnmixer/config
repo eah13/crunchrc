@@ -1,6 +1,5 @@
-
 [PNMixer]
-DisplayTextVolume=true
+DisplayTextVolume=false
 TextVolumePosition=3
 MouseScrollStep=10
 HotkeyVolumeStep=10
@@ -20,4 +19,7 @@ VolUpMods=0
 VolDownMods=0
 
 [(default)]
+Channel=Master
+
+[HDA Intel]
 Channel=Master
