@@ -1,0 +1,23 @@
+! Elliott's key mapping config file
+! (C) CC0
+
+! For black Intel MacBook
+clear mod4
+clear control
+
+! enter key to alt
+keycode 104 = Alt_R
+
+! left Command to Ctrl
+keycode 133 = Control_L
+
+! left Ctrl to Command
+!keycode 37 = Super_L
+
+! left Ctrl to Ctrl
+keycode 37 = Control_L
+
+
+add control = Control_L Control_R
+add mod4 = Super_L Super_R Hyper_L
+
